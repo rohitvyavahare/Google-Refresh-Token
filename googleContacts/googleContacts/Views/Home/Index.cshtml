@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<a class='login' id="glogin" href=@ViewBag.message>Google server</a>
+<input type="hidden" id="myInput" value=@ViewBag.message>
+
+<script src="https://apis.google.com/js/client.js"></script>
+<script src="https://apis.google.com/js/client:platform.js?onload=render" async defer></script>
+<script src="~/Scripts/Google.js"></script>
